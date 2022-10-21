@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment{
         imagename = "kisakthi/docker-jenkins"
-        registryCredential = 'dockerhub'
+        registryCredential = 'Docker'
         dockerImage = ''
     }
 
